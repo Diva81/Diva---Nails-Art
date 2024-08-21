@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Diva Nails Art offers luxury nail treatments including manicure, pedicure, and unique nail art. Visit us for top-notch services.">
+    <title>Diva Nails Art</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="70">
+
+    <!-- Navigation -->
+    <header class="bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <div class="container-fluid d-flex flex-column align-items-center">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/images/logo.jpg" class="logo" alt="Diva Nails Art Logo">
+                </a>
+                <!-- Navigation Links -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex flex-row">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section with Video -->
+    <section id="home" class="hero text-center">
+        <div class="hero-text">
+            <h1>WELCOME</h1>
+            <p>YOUR DESTINATION FOR LUXURY NAIL TREATMENTS.</p>
+        </div>
+        <div class="video-wrapper">
+            <video autoplay loop playsinline aria-label="Welcome video showcasing nail art services" class="video-background">
+                <source src="/assets/video/divanailsartvideo.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services py-5">
+        <div class="container">
+            <h2 class="text-center">OUR SERVICES</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card mb-4" role="article" aria-labelledby="manicure-title">
+                        <img src="/assets/images/Blueintense.jpg" class="card-img-top" alt="Manicure service">
+                        <div class="card-body">
+                            <h5 class="card-title" id="manicure-title">Manicure</h5>
+                            <p class="card-text">Our manicure services include basic, gel, and luxury treatments.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4" role="article" aria-labelledby="pedicure-title">
+                        <img src="/assets/images/pedicure.jpg" class="card-img-top" alt="Pedicure service">
+                        <div class="card-body">
+                            <h5 class="card-title" id="pedicure-title">Pedicure</h5>
+                            <p class="card-text">Relax with our premium pedicure services. Choose from a variety of options.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4" role="article" aria-labelledby="nail-art-title">
+                        <img src="/assets/images/frenchmanicurenails.jpg" class="card-img-top" alt="Nail Art service">
+                        <div class="card-body">
+                            <h5 class="card-title" id="nail-art-title">Nail Art</h5>
+                            <p class="card-text">Experience creative and unique nail art that expresses your style.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">CONTACT US</h2>
+            <p class="text-center">We would love to hear from you!</p>
+            <div class="row mt-4">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" aria-label="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" aria-label="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your message" aria-label="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" aria-label="Send Message">Send Message</button>
+                    </form>
+                    <div class="text-center mt-4">
+                        <p>Email: <a href="mailto:info@divanailsart.com">info@divanailsart.com</a></p>
+                        <p>Phone: <a href="tel:+7754212806">(44) 7754212806</a></p>
+                        <p>Address: 128 Long Drive, W3 7PH, London, UK</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Diva Nails Art. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
