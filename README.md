@@ -18,7 +18,7 @@ The **Diva Nails Art** web application showcases luxury nail treatments. It prov
 ### 1. Prerequisites
 
 - Web hosting environment or cloud-based hosting service.
-- Code editor (Gitpod) and web browser for testing (W3C Jigsaw) .
+- Code editor (Gitpod,VS code) and web browser for testing (W3C Jigsaw) .
 
 ### 2. File Structure
 
@@ -56,7 +56,7 @@ Ensure that the layout is responsive on various devices.
 6. Deployment
 Deploy the Site:
 
-1. Use a hosting service like GitHub Pages for deployment.
+1. Use a hosting service like GitHub Pages, netlify for deployment.
 Follow the specific instructions for your chosen platform to deploy the site.
 Updated the Live Link:
 
@@ -64,7 +64,7 @@ Updated the Live Link:
 Live Site
 You can view the live site here: Diva Nails Art
 
-#### Code Attribution
+## Code Attribution
 External Libraries and Resources
 Bootstrap: Used for responsive design and layout.
 
@@ -87,11 +87,29 @@ Source: Bootstrap CDN
 CDN:
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-##### Internal Code
+## Screenshots
+User Story 1: ![W3C validator html 1 to check]
+(https://github.com/user-attachments/assets/64fd9a58-5e3b-4f9a-ae55-304d6b25ba3d)
+
+User Story 2: ![W3C validator html 2 no errors]
+(https://github.com/user-attachments/assets/fd234f0d-a033-49b4-a286-97a6ff991a5e)
+
+User Story 3: ![W3C validator css to check 1 ]
+(https://github.com/user-attachments/assets/bc32ec9b-0d43-4090-a02c-e47a4e841aab)
+
+User Story 4: [![W3C validator css to check no errors]
+(https://github.com/user-attachments/assets/964ceec1-1196-4782-97a2-c16bf51b4b5b)
+
+User Story 5: 
+
+User Story 6: 
+
+
+## Internal Code
 HTML: Defines the structure and content of the website.
 CSS: Styles the HTML elements and handles the visual design.
 
-###### Development Log
+## Development Log
 August 20, 2024: Implemented responsive navigation bar and centered logo.
 August 21, 2024: Added video background to the hero section and adjusted text alignment.
 August 22, 2024: Fixed footer alignment and updated CSS styles for improved readability.
